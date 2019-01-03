@@ -1,0 +1,23 @@
+Package: slaph
+Type: Package
+Title: Data Visualization Using Slack Text
+Version: 0.1.0
+Authors@R: c(
+    person("Austin", "Dickey", email = "austin3dickey@gmail.com", role = c("aut", "cre"))
+    )
+Maintainer: Austin Dickey <austin3dickey@gmail.com>
+Description: Create graphs using 'ggplot2', render them as 'ASCII' text, and send them to 'Slack'.
+Imports:
+    assertthat,
+    ggplot2,
+    grDevices,
+    httr,
+    jsonlite,
+    png,
+    utils
+License: BSD_3_clause + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+URL: https://github.com/austin3dickey/slaph
+BugReports: https://github.com/austin3dickey/slaph/issues
